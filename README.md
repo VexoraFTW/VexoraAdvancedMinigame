@@ -30,16 +30,11 @@ Place the VexoraAdvancedMinigame folder inside your resources/[scripts] folder.
 
 Ensure in server.cfg
 
-ruby
-Copy
-Edit
 ensure VexoraAdvancedMinigame
+
 Using the Export
 Call the minigame from any script like this:
 
-lua
-Copy
-Edit
 exports['VexoraAdvancedMinigame']:StartMinigame({
     type = "wirecut", -- Type of minigame
     time = 15,        -- Seconds to complete
@@ -53,13 +48,12 @@ exports['VexoraAdvancedMinigame']:StartMinigame({
         -- Handle fail condition
     end
 end)
+
 Customize in config.lua
 Modify visual style, duration, difficulty scaling, sound, and animations.
 
 🔧 Configuration (config.lua)
-lua
-Copy
-Edit
+
 Config = {
     DefaultTime = 15,
     SoundEffects = true,
@@ -77,10 +71,9 @@ Config = {
 🧪 Test Command
 Run this in-game to test:
 
-bash
-Copy
-Edit
 /minigametest
+
+
 🛡️ License
 This resource is protected and licensed for use under your Tebex/Gumroad purchase terms. Redistribution is prohibited.
 
